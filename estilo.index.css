@@ -1,0 +1,92 @@
+html {
+	padding-top: 160px;
+}
+
+.container-fluid {
+	padding: 10px 30px 10px 30px;
+	width: 100%;	
+	
+}
+
+.navbar.navbar-default.navbar-fixed-top {
+	padding: 0px 50px 0px 50px;
+	
+}
+
+a.navbar-brand {
+ padding-top: 0%;
+ 
+}
+
+.navbar-brand img {
+  width: auto;
+  height: 50px;
+  padding-top: 0%;
+  border-radius: 15px;
+  
+}
+
+.row {
+
+	padding-bottom: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: left;
+	font-family: photowall;
+	font-size: 16px;
+	color: grey;
+}
+
+.row h1 {
+	text-align: center;
+	font-family: photowall;
+	color:black;
+}
+
+.row img {
+	border-radius: 10px;
+}
+
+.row.menu {
+	text-align: center;
+	
+}
+
+.row h2 {
+
+	text-align: center;
+	font-family: photowall;
+	color:black;
+}
+
+
+.row.noticias {
+		
+}
+.col-md-4 img {
+	padding-: 100px;
+}
+
+.container-fluid {
+	text-align: center;
+}
+
+.btn.btn-info {
+padding-right: 70px;
+padding-left: 70px;
+
+}
+
+.card {
+	text-align: center;
+}
+
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
+
